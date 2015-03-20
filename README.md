@@ -5,9 +5,11 @@ First, we read data from the "train" folder (we assume that it is in the working
 Specifically, we read the training set and its corresponding subjects and labels. We do that by calling 
 the "read.table" function.
 
+'''
 train <- read.table("train/X_train.txt")
 y_train <- read.table("train/y_train.txt")
 subject_train <- read.table("train/subject_train.txt")
+'''
 
 We do the same with the "test" data.
 
